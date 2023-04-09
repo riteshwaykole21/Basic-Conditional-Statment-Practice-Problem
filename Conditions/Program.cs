@@ -12,6 +12,7 @@ namespace Conditions
         {
             Console.WriteLine("1 : Check The Equal Or Not");
             Console.WriteLine("2 : Check Number Even Or Odd");
+            Console.WriteLine("3 : Check Number Positive Or Negative");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -23,6 +24,10 @@ namespace Conditions
                 case 2:
                     EvenOdd evenOdd = new EvenOdd();
                     evenOdd.Even();
+                    break;
+                case 3:
+                    Positive positive = new Positive();
+                    positive.Negative();    
                     break;
             }
             Console.ReadLine();
