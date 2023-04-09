@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Equals.cs" />
     <Compile Include="EvenOdd.cs" />
+    <Compile Include="LeapYear.cs" />
     <Compile Include="Positive.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
