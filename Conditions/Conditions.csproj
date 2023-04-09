@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Age.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="EvenOdd.cs" />
     <Compile Include="LeapYear.cs" />

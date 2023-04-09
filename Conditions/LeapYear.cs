@@ -13,7 +13,7 @@ namespace Conditions
         {
             Console.WriteLine("Enter The Year ");
             int Year = Convert.ToInt32(Console.ReadLine());
-            if (Year / 4 == 0)
+            if (Year % 4 == 0)
             {
                 Console.WriteLine("Its Leap Year");
             }

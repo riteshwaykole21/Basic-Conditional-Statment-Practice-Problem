@@ -14,6 +14,7 @@ namespace Conditions
             Console.WriteLine("2 : Check Number Even Or Odd");
             Console.WriteLine("3 : Check Number Positive Or Negative");
             Console.WriteLine("4 : Check Year Leap or Not");
+            Console.WriteLine("5 : Check To Able For Vote");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,6 +34,10 @@ namespace Conditions
                 case 4:
                     LeapYear leapYear = new LeapYear();
                     leapYear.Year();
+                    break;
+                case 5:
+                    Age age = new Age();
+                    age.Output();
                     break;
             }
             Console.ReadLine();
