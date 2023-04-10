@@ -18,6 +18,7 @@ namespace Conditions
             Console.WriteLine("5 : Check To Able For Vote");
             Console.WriteLine("6 : Read The Value Of Integer ");
             Console.WriteLine("7 : Largest Among Three Number");
+            Console.WriteLine("8 : Determine In Which Quadrant");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -49,6 +50,10 @@ namespace Conditions
                 case 7:
                     LargestNumber large = new LargestNumber();
                     large.Number();
+                    break;
+                case 8:
+                    Coordinate co = new Coordinate();
+                    co.Systeam();
                     break;
             }
             Console.ReadLine();

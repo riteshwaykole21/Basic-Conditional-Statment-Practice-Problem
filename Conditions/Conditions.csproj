@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Age.cs" />
+    <Compile Include="Coordinate.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="EvenOdd.cs" />
     <Compile Include="LargestNumber.cs" />
