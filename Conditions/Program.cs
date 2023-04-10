@@ -15,6 +15,7 @@ namespace Conditions
             Console.WriteLine("3 : Check Number Positive Or Negative");
             Console.WriteLine("4 : Check Year Leap or Not");
             Console.WriteLine("5 : Check To Able For Vote");
+            Console.WriteLine("6 : Read The Value Of Integer ");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -38,6 +39,10 @@ namespace Conditions
                 case 5:
                     Age age = new Age();
                     age.Output();
+                    break;
+                case 6:
+                    Values values = new Values();
+                    values.Integer();
                     break;
             }
             Console.ReadLine();
