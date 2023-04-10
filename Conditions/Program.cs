@@ -20,6 +20,7 @@ namespace Conditions
             Console.WriteLine("7 : Largest Among Three Number");
             Console.WriteLine("8 : Determine In Which Quadrant");
             Console.WriteLine("9 : Check Eligibility For Addmission ");
+            Console.WriteLine("10 : Calculating Percentage Of Student");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -59,6 +60,10 @@ namespace Conditions
                 case 9:
                     Addmission addmission = new Addmission();
                     addmission.Marks();
+                    break;
+                case 10:
+                    Calculation calculation = new Calculation();
+                    calculation.Marks();
                     break;
             }
             Console.ReadLine();

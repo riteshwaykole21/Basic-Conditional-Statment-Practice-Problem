@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Addmission.cs" />
     <Compile Include="Age.cs" />
+    <Compile Include="Calculation.cs" />
     <Compile Include="Coordinate.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="EvenOdd.cs" />
