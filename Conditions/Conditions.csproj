@@ -46,6 +46,7 @@
     <Compile Include="Age.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="EvenOdd.cs" />
+    <Compile Include="LargestNumber.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="Positive.cs" />
     <Compile Include="Program.cs" />

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,7 @@ namespace Conditions
             Console.WriteLine("4 : Check Year Leap or Not");
             Console.WriteLine("5 : Check To Able For Vote");
             Console.WriteLine("6 : Read The Value Of Integer ");
+            Console.WriteLine("7 : Largest Among Three Number");
             Console.WriteLine("Emnter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -43,6 +45,10 @@ namespace Conditions
                 case 6:
                     Values values = new Values();
                     values.Integer();
+                    break;
+                case 7:
+                    LargestNumber large = new LargestNumber();
+                    large.Number();
                     break;
             }
             Console.ReadLine();
